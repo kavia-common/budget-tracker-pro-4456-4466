@@ -43,4 +43,3 @@ com.example.expense_frontend.app-packageReleaseResources-41 /home/kavia/workspac
 com.example.expense_frontend.app-merged-not-compiled-resources-42 /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/build/app/intermediates/merged-not-compiled-resources/release
 com.example.expense_frontend.app-release-43 /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/build/app/intermediates/merged_res/release/mergeReleaseResources
 com.example.expense_frontend.app-release-44 /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/build/shared_preferences_android/intermediates/packaged_res/release/packageReleaseResources
-com.example.expense_frontend.app-release-45 /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/build/sqflite_android/intermediates/packaged_res/release/packageReleaseResources

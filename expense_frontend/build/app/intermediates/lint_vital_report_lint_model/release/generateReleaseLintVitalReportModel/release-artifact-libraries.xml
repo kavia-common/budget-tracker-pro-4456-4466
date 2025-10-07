@@ -11,9 +11,6 @@
       jars="/home/kavia/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.8.22/4dabb8248310d833bb6a8b516024a91fd3d275c/kotlin-stdlib-jdk7-1.8.22.jar"
       resolved="org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22"/>
   <library
-      name=":@@:sqflite_android::release"
-      project=":sqflite_android"/>
-  <library
       name="io.flutter:flutter_embedding_release:1.0.0-871f65ac1bf129edb222c3293a636ff4b67534a6@jar"
       jars="/home/kavia/.gradle/caches/modules-2/files-2.1/io.flutter/flutter_embedding_release/1.0.0-871f65ac1bf129edb222c3293a636ff4b67534a6/3aef8c9981f96834cd2a1a82b02e68caf7071ebb/flutter_embedding_release-1.0.0-871f65ac1bf129edb222c3293a636ff4b67534a6.jar"
       resolved="io.flutter:flutter_embedding_release:1.0.0-871f65ac1bf129edb222c3293a636ff4b67534a6"/>

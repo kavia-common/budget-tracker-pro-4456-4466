@@ -36,7 +36,6 @@ MERGED from [androidx.datastore:datastore-core-android:1.1.7] /home/kavia/.gradl
 MERGED from [androidx.datastore:datastore-preferences-android:1.1.7] /home/kavia/.gradle/caches/8.12/transforms/be249dffb93803e0508e06226425ebe1/transformed/jetified-datastore-preferences-release/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.datastore:datastore-android:1.1.7] /home/kavia/.gradle/caches/8.12/transforms/5681559bb59996d3347f16b2dbe5544f/transformed/jetified-datastore-release/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.preference:preference:1.2.1] /home/kavia/.gradle/caches/8.12/transforms/5677a5052a31cb55366be3f2f377c4e7/transformed/preference-1.2.1/AndroidManifest.xml:17:1-24:12
-MERGED from [:sqflite_android] /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/build/sqflite_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] /home/kavia/.gradle/caches/8.12/transforms/79486d8f89d2497e27223e0becc73a90/transformed/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/kavia/.gradle/caches/8.12/transforms/136d10bcf828d5896e991894b390a21f/transformed/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/kavia/.gradle/caches/8.12/transforms/b8caf5d92752d661b609292b95ab21bb/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -161,8 +160,6 @@ MERGED from [androidx.datastore:datastore-android:1.1.7] /home/kavia/.gradle/cac
 MERGED from [androidx.datastore:datastore-android:1.1.7] /home/kavia/.gradle/caches/8.12/transforms/5681559bb59996d3347f16b2dbe5544f/transformed/jetified-datastore-release/AndroidManifest.xml:20:5-44
 MERGED from [androidx.preference:preference:1.2.1] /home/kavia/.gradle/caches/8.12/transforms/5677a5052a31cb55366be3f2f377c4e7/transformed/preference-1.2.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.preference:preference:1.2.1] /home/kavia/.gradle/caches/8.12/transforms/5677a5052a31cb55366be3f2f377c4e7/transformed/preference-1.2.1/AndroidManifest.xml:20:5-22:41
-MERGED from [:sqflite_android] /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/build/sqflite_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:5:5-44
-MERGED from [:sqflite_android] /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/build/sqflite_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:5:5-44
 MERGED from [androidx.appcompat:appcompat:1.1.0] /home/kavia/.gradle/caches/8.12/transforms/79486d8f89d2497e27223e0becc73a90/transformed/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.1.0] /home/kavia/.gradle/caches/8.12/transforms/79486d8f89d2497e27223e0becc73a90/transformed/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/kavia/.gradle/caches/8.12/transforms/136d10bcf828d5896e991894b390a21f/transformed/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
