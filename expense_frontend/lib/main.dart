@@ -5,7 +5,6 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 import 'theme.dart';
 import 'state/auth_provider.dart';
-import 'screens/login_screen.dart';
 import 'screens/dashboard_screen.dart';
 import 'screens/transactions_screen.dart';
 import 'screens/budgets_screen.dart';
@@ -27,32 +26,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ChangeNotifierProvider(
+      // In mock mode AuthProvider will not require a real token
       create: (_) => AuthProvider()..initialize(),
-      child: Consumer<AuthProvider>(
-        builder: (context, auth, _) {
-          return MaterialApp(
-            title: 'Budget Tracker Pro',
-            debugShowCheckedModeBanner: false,
-            theme: AppTheme.light(),
-            home: !auth.isInitialized
-                ? const _Splash()
-                : auth.isAuthenticated
-                    ? const _Home()
-                    : const LoginScreen(),
-          );
-        },
+      child: MaterialApp(
+        title: 'Budget Tracker Pro',
+        debugShowCheckedModeBanner: false,
+        theme: AppTheme.light(),
+        home: const _Home(),
       ),
-    );
-  }
-}
-
-class _Splash extends StatelessWidget {
-  const _Splash();
-
-  @override
-  Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Center(child: CircularProgressIndicator()),
     );
   }
 }
@@ -79,9 +60,20 @@ class _HomeState extends State<_Home> {
 
   @override
   Widget build(BuildContext context) {
+    final isMock = (dotenv.env['USE_MOCK_DATA'] ?? 'true').toLowerCase() != 'false';
     return Scaffold(
       appBar: AppBar(
         title: const Text('Budget Tracker Pro'),
+        actions: [
+          if (isMock)
+            Padding(
+              padding: const EdgeInsets.only(right: 12),
+              child: Chip(
+                label: const Text('Mock', style: TextStyle(color: Colors.white)),
+                backgroundColor: Colors.orange.shade700,
+              ),
+            ),
+        ],
       ),
       body: IndexedStack(index: _idx, children: _pages),
       bottomNavigationBar: BottomNavigationBar(
@@ -106,8 +98,10 @@ class _SettingsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final auth = context.watch<AuthProvider>();
-    final email = auth.user?['email'] ?? 'Unknown';
-    final name = auth.user?['name'] ?? 'User';
+    final email = auth.user?['email'] ?? 'guest@example.com';
+    final name = auth.user?['name'] ?? 'Guest';
+    final isMock = (dotenv.env['USE_MOCK_DATA'] ?? 'true').toLowerCase() != 'false';
+
     return ListView(
       padding: const EdgeInsets.all(12),
       children: [
@@ -119,21 +113,22 @@ class _SettingsScreen extends StatelessWidget {
           ),
         ),
         const SizedBox(height: 8),
-        Card(
-          child: ListTile(
-            leading: const Icon(Icons.logout),
-            title: const Text('Logout'),
-            onTap: () => context.read<AuthProvider>().logout(),
+        if (!isMock)
+          Card(
+            child: ListTile(
+              leading: const Icon(Icons.logout),
+              title: const Text('Logout'),
+              onTap: () => context.read<AuthProvider>().logout(),
+            ),
           ),
-        ),
         const SizedBox(height: 8),
         Card(
           child: ListTile(
             leading: const Icon(Icons.info_outline),
-            title: const Text('API Base URL'),
-            subtitle: Text(const String.fromEnvironment('API_BASE_URL', defaultValue: '') == ''
-                ? (dotenv.env['API_BASE_URL'] ?? '')
-                : const String.fromEnvironment('API_BASE_URL')),
+            title: const Text('Environment'),
+            subtitle: Text(isMock
+                ? 'Mock mode: using seeded local data'
+                : 'Real mode: ${dotenv.env['API_BASE_URL'] ?? ''}'),
           ),
         ),
       ],

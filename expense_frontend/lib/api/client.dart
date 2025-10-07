@@ -3,12 +3,11 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
+import 'mock_client.dart';
 
 /// A lightweight API client for the Budget Tracker Pro app.
-/// - Reads API_BASE_URL from .env
-/// - Adds Authorization Bearer token when present
-/// - Automatically logs out on 401 by clearing stored token
-/// - Provides simple GET/POST helpers with JSON handling
+/// In mock mode (USE_MOCK_DATA=true), routes requests to MockApiClient.
+/// Otherwise uses HTTP to talk to a real backend.
 class ApiClient {
   ApiClient._internal();
 
@@ -16,11 +15,12 @@ class ApiClient {
 
   factory ApiClient() => _instance;
 
+  bool get _useMock => (dotenv.env['USE_MOCK_DATA'] ?? 'true').toLowerCase() != 'false';
+
   String get baseUrl {
-    // Fallbacks for emulator compatibility; prefer .env if present.
+    if (_useMock) return MockApiClient().baseUrl;
     final envBase = dotenv.env['API_BASE_URL']?.trim();
     if (envBase != null && envBase.isNotEmpty) return envBase;
-    // Android emulator talks to host via 10.0.2.2
     return kIsWeb ? 'http://localhost:3000' : 'http://10.0.2.2:3000';
   }
 
@@ -29,6 +29,8 @@ class ApiClient {
       'Content-Type': 'application/json',
       'Accept': 'application/json',
     };
+    // In mock mode, do not attach Authorization
+    if (_useMock) return headers;
     final prefs = await SharedPreferences.getInstance();
     final token = prefs.getString('auth_token');
     if (token != null && token.isNotEmpty) {
@@ -38,23 +40,26 @@ class ApiClient {
   }
 
   Uri _uri(String path, [Map<String, dynamic>? query]) {
-    final normalized =
-        path.startsWith('/') ? path : '/$path';
+    final normalized = path.startsWith('/') ? path : '/$path';
     return Uri.parse('$baseUrl$normalized').replace(
       queryParameters: query?.map((k, v) => MapEntry(k, '$v')),
     );
   }
 
+  MockApiClient get _mock => MockApiClient();
+
   // PUBLIC_INTERFACE
   Future<dynamic> getJson(String path, {Map<String, dynamic>? query}) async {
-    /** Performs a GET request and returns decoded JSON. Throws on non-2xx. */
+    /** Performs a GET request. In mock mode, serves local data. */
+    if (_useMock) return _mock.getJson(path, query: query);
     final response = await http.get(_uri(path, query), headers: await _headers());
     return _handleResponse(response);
   }
 
   // PUBLIC_INTERFACE
   Future<dynamic> postJson(String path, Map<String, dynamic> body) async {
-    /** Performs a POST request with JSON body and returns decoded JSON. Throws on non-2xx. */
+    /** Performs a POST request. In mock mode, mutates local data. */
+    if (_useMock) return _mock.postJson(path, body);
     final response = await http.post(
       _uri(path),
       headers: await _headers(),
@@ -65,7 +70,8 @@ class ApiClient {
 
   // PUBLIC_INTERFACE
   Future<dynamic> putJson(String path, Map<String, dynamic> body) async {
-    /** Performs a PUT request with JSON body and returns decoded JSON. Throws on non-2xx. */
+    /** Performs a PUT request. In mock mode, mutates local data. */
+    if (_useMock) return _mock.putJson(path, body);
     final response = await http.put(
       _uri(path),
       headers: await _headers(),
@@ -76,14 +82,14 @@ class ApiClient {
 
   // PUBLIC_INTERFACE
   Future<dynamic> delete(String path) async {
-    /** Performs a DELETE request and returns decoded JSON if available. Throws on non-2xx. */
+    /** Performs a DELETE request. In mock mode, mutates local data. */
+    if (_useMock) return _mock.delete(path);
     final response = await http.delete(_uri(path), headers: await _headers());
     return _handleResponse(response);
   }
 
   dynamic _handleResponse(http.Response response) async {
     if (response.statusCode == 401) {
-      // Unauthorized -> clear token to force relogin
       final prefs = await SharedPreferences.getInstance();
       await prefs.remove('auth_token');
       throw ApiException('Unauthorized. Please login again.', statusCode: 401);
