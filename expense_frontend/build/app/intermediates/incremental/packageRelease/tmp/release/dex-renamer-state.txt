@@ -1,0 +1,4 @@
+#Tue Oct 07 03:33:13 UTC 2025
+base.0=/home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

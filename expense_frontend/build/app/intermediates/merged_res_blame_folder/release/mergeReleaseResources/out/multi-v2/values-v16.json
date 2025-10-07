@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.expense_frontend.app-mergeReleaseResources-40:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/home/kavia/.gradle/caches/8.12/transforms/79486d8f89d2497e27223e0becc73a90/transformed/appcompat-1.1.0/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    }
+                }
+            ]
+        }
+    ]
+}
