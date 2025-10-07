@@ -1,16 +1,53 @@
-# expense_frontend
+# Budget Tracker Pro - Flutter Frontend
 
-A new Flutter project.
+A cross-platform Flutter app for managing and tracking monthly expenses with budgets, goals, and alerts.
 
-## Getting Started
+## Features
+- User authentication (register, login, logout)
+- Dashboard summary
+- Transactions list with quick add
+- Budgets list with quick add and progress bars
+- Goals list with quick add and progress
+- Alerts list
+- Ocean Professional theme
+- API client using `.env` (flutter_dotenv) and `shared_preferences`
 
-This project is a starting point for a Flutter application.
+## Requirements
+- Flutter 3.29+
+- A running backend API providing:
+  - POST /auth/register
+  - POST /auth/login -> { token }
+  - GET /auth/me -> { name, email, ... }
+  - GET /dashboard
+  - GET/POST /transactions
+  - GET/POST /budgets
+  - GET/POST /goals
+  - GET /alerts
 
-A few resources to get you started if this is your first Flutter project:
+## Environment variables
+Create a `.env` file at project root with:
+```
+API_BASE_URL=http://10.0.2.2:3000
+```
+Notes:
+- `10.0.2.2` is Android emulator alias to host. On iOS simulator use `http://localhost:3000`.
+- The app falls back to `10.0.2.2:3000` if `.env` is missing.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Run
+- flutter pub get
+- flutter run
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Theming
+The app uses the Ocean Professional palette:
+- Primary: #1E3A8A
+- Secondary: #F59E0B
+- Success: #059669
+- Error: #DC2626
+- Background: #F3F4F6
+- Surface: #FFFFFF
+- Text: #111827
+
+## Notes
+- Tokens are stored in SharedPreferences under `auth_token`.
+- A 401 from the API clears the token to force re-login.
+- Update API_BASE_URL to your backend environment.

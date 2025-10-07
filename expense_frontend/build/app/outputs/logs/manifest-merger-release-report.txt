@@ -1,0 +1,359 @@
+-- Merging decision tree log ---
+application
+INJECTED from /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/android/app/src/main/AndroidManifest.xml:2:5-33:19
+INJECTED from /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/android/app/src/main/AndroidManifest.xml:2:5-33:19
+MERGED from [androidx.window:window:1.2.0] /home/kavia/.gradle/caches/8.12/transforms/f899a95975c11b33858104ea331c03ab/transformed/jetified-window-1.2.0/AndroidManifest.xml:22:5-29:19
+MERGED from [androidx.window:window:1.2.0] /home/kavia/.gradle/caches/8.12/transforms/f899a95975c11b33858104ea331c03ab/transformed/jetified-window-1.2.0/AndroidManifest.xml:22:5-29:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/kavia/.gradle/caches/8.12/transforms/0b087dc6e963b39d6d955468510bf4dc/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/kavia/.gradle/caches/8.12/transforms/0b087dc6e963b39d6d955468510bf4dc/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.1] /home/kavia/.gradle/caches/8.12/transforms/ecc85db545387583b44d739710f54e69/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] /home/kavia/.gradle/caches/8.12/transforms/ecc85db545387583b44d739710f54e69/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/kavia/.gradle/caches/8.12/transforms/fcf65e906405abd1021349d36e6d1b37/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/kavia/.gradle/caches/8.12/transforms/fcf65e906405abd1021349d36e6d1b37/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/kavia/.gradle/caches/8.12/transforms/a1e07d7eba4148825b06774d0db4bb31/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/kavia/.gradle/caches/8.12/transforms/a1e07d7eba4148825b06774d0db4bb31/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/kavia/.gradle/caches/8.12/transforms/587de8059ab46e1ea8ed4ee5add1c616/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/kavia/.gradle/caches/8.12/transforms/587de8059ab46e1ea8ed4ee5add1c616/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/android/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] /home/kavia/.gradle/caches/8.12/transforms/ecc85db545387583b44d739710f54e69/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+	android:label
+		ADDED from /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/android/app/src/main/AndroidManifest.xml:3:9-41
+	android:icon
+		ADDED from /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/android/app/src/main/AndroidManifest.xml:5:9-43
+	android:name
+		INJECTED from /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/android/app/src/main/AndroidManifest.xml:4:9-42
+manifest
+ADDED from /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/android/app/src/main/AndroidManifest.xml:1:1-45:12
+INJECTED from /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/android/app/src/main/AndroidManifest.xml:1:1-45:12
+INJECTED from /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/android/app/src/main/AndroidManifest.xml:1:1-45:12
+INJECTED from /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/android/app/src/main/AndroidManifest.xml:1:1-45:12
+MERGED from [:shared_preferences_android] /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/build/shared_preferences_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-preferences-core-android:1.1.7] /home/kavia/.gradle/caches/8.12/transforms/fdedd105cc354754002f80774071aa37/transformed/jetified-datastore-preferences-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-core-android:1.1.7] /home/kavia/.gradle/caches/8.12/transforms/da3dcbb8478ee6712a2757e40e2e5700/transformed/jetified-datastore-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.7] /home/kavia/.gradle/caches/8.12/transforms/be249dffb93803e0508e06226425ebe1/transformed/jetified-datastore-preferences-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore-android:1.1.7] /home/kavia/.gradle/caches/8.12/transforms/5681559bb59996d3347f16b2dbe5544f/transformed/jetified-datastore-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.preference:preference:1.2.1] /home/kavia/.gradle/caches/8.12/transforms/5677a5052a31cb55366be3f2f377c4e7/transformed/preference-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [:sqflite_android] /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/build/sqflite_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/kavia/.gradle/caches/8.12/transforms/79486d8f89d2497e27223e0becc73a90/transformed/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/kavia/.gradle/caches/8.12/transforms/136d10bcf828d5896e991894b390a21f/transformed/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/kavia/.gradle/caches/8.12/transforms/b8caf5d92752d661b609292b95ab21bb/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /home/kavia/.gradle/caches/8.12/transforms/f60ce6f92c80e469411796f86fda3c0b/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.2.0] /home/kavia/.gradle/caches/8.12/transforms/f899a95975c11b33858104ea331c03ab/transformed/jetified-window-1.2.0/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.window:window-java:1.2.0] /home/kavia/.gradle/caches/8.12/transforms/eb474d7ce0c64ddc45d9ab2afdea5d4c/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:17:1-21:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/kavia/.gradle/caches/8.12/transforms/8a003b1391932622036cdf6b3b964986/transformed/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/kavia/.gradle/caches/8.12/transforms/692e18a164e15001616c74527901e95f/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment-ktx:1.7.1] /home/kavia/.gradle/caches/8.12/transforms/97b4838ef47b4e1dd9cf7d8aae894add/transformed/jetified-fragment-ktx-1.7.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment:1.7.1] /home/kavia/.gradle/caches/8.12/transforms/4cbdfda2afb93ffef36feb6acba46dc0/transformed/fragment-1.7.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/kavia/.gradle/caches/8.12/transforms/00080e89f738ef5f55dfb4003af1f09c/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/kavia/.gradle/caches/8.12/transforms/0796bd49e88d4292b30bd2a8f7dcc1c7/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /home/kavia/.gradle/caches/8.12/transforms/693f17886d6335d8ef69da19f90830a8/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.4.1] /home/kavia/.gradle/caches/8.12/transforms/06a473e865f8e7b485d2585352d2f488/transformed/transition-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.8.1] /home/kavia/.gradle/caches/8.12/transforms/0da8d42eae823190dbcf7485206fa2fc/transformed/jetified-activity-ktx-1.8.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.8.1] /home/kavia/.gradle/caches/8.12/transforms/7edd89ff2b821836a158ea972629b617/transformed/jetified-activity-1.8.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/kavia/.gradle/caches/8.12/transforms/478df5fbb6c199b4bc9f2ea82c5788fe/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/kavia/.gradle/caches/8.12/transforms/e2b4af1ca0cec77ecb4ed0aec953c00c/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /home/kavia/.gradle/caches/8.12/transforms/3c5174da2f0a9454bec69e0785a04cc9/transformed/jetified-lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /home/kavia/.gradle/caches/8.12/transforms/bef3e897a1ae1d184f198511bbab3b7b/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /home/kavia/.gradle/caches/8.12/transforms/e3ed3bc56fb2ca9433a8f85305a6f2c0/transformed/jetified-lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /home/kavia/.gradle/caches/8.12/transforms/59b488d18bfa87592b5ad32823bcba25/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /home/kavia/.gradle/caches/8.12/transforms/6e4bcd22ed525db1f8711a9012922e07/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /home/kavia/.gradle/caches/8.12/transforms/7d83aa10a1c135b4920e96b1d67964db/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/kavia/.gradle/caches/8.12/transforms/0b087dc6e963b39d6d955468510bf4dc/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/kavia/.gradle/caches/8.12/transforms/146115acad06510fedc70c2ad7053c05/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/kavia/.gradle/caches/8.12/transforms/3de42863783e9fa71310142d514f4b4b/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /home/kavia/.gradle/caches/8.12/transforms/73abdb972f6501e9e8fa1874e141f51c/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /home/kavia/.gradle/caches/8.12/transforms/7c55c3caa8fb4af6af2e7c6ae8f02b7d/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.13.1] /home/kavia/.gradle/caches/8.12/transforms/9fd91c15a05417f0bbe416775b0ba94e/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/kavia/.gradle/caches/8.12/transforms/9d3734c5e5f203e3b074616b184ca8fd/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/kavia/.gradle/caches/8.12/transforms/ea272d0bc01621a4f70fb373888a98d4/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/kavia/.gradle/caches/8.12/transforms/77ac4369c6a4a7efe1e968b71ee20fd4/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/kavia/.gradle/caches/8.12/transforms/ee7dbe78259710db70499170c3444bb4/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.13.1] /home/kavia/.gradle/caches/8.12/transforms/ecc85db545387583b44d739710f54e69/transformed/core-1.13.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/kavia/.gradle/caches/8.12/transforms/fcf65e906405abd1021349d36e6d1b37/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/kavia/.gradle/caches/8.12/transforms/a1e07d7eba4148825b06774d0db4bb31/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] /home/kavia/.gradle/caches/8.12/transforms/7eea7c7f87c2ddc8c9f4b537396d6ab8/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/kavia/.gradle/caches/8.12/transforms/ac4b390839bcdb06dc8c34815db85f0c/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/kavia/.gradle/caches/8.12/transforms/2fb8bcbee05ee485046453e879ac761a/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/kavia/.gradle/caches/8.12/transforms/587de8059ab46e1ea8ed4ee5add1c616/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/kavia/.gradle/caches/8.12/transforms/5b2cfedfa94e7b48cdcb9842603abf28/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.window.extensions.core:core:1.0.0] /home/kavia/.gradle/caches/8.12/transforms/b832e67ee1b3ae2c9d8b7f34399e4c0f/transformed/jetified-core-1.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/kavia/.gradle/caches/8.12/transforms/2afab207716716629e38ce655845ca84/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/kavia/.gradle/caches/8.12/transforms/0e277a8e5f6dea3f730d6708665e06ad/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/kavia/.gradle/caches/8.12/transforms/cab713ce268234a260ff018cb4214edc/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/kavia/.gradle/caches/8.12/transforms/14d521577cde7fbee6d2e389b9d6632b/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] /home/kavia/.gradle/caches/8.12/transforms/d3ecb9d20a3f7383ab98632cd423a8df/transformed/jetified-relinker-1.4.5/AndroidManifest.xml:2:1-7:12
+	package
+		INJECTED from /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/android/app/src/main/AndroidManifest.xml:1:11-69
+queries
+ADDED from /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/android/app/src/main/AndroidManifest.xml:39:5-44:15
+intent#action:name:android.intent.action.PROCESS_TEXT+data:mimeType:text/plain
+ADDED from /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/android/app/src/main/AndroidManifest.xml:40:9-43:18
+action#android.intent.action.PROCESS_TEXT
+ADDED from /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/android/app/src/main/AndroidManifest.xml:41:13-72
+	android:name
+		ADDED from /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/android/app/src/main/AndroidManifest.xml:41:21-70
+data
+ADDED from /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/android/app/src/main/AndroidManifest.xml:42:13-50
+	android:mimeType
+		ADDED from /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/android/app/src/main/AndroidManifest.xml:42:19-48
+activity#com.example.expense_frontend.MainActivity
+ADDED from /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/android/app/src/main/AndroidManifest.xml:6:9-27:20
+	android:launchMode
+		ADDED from /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/android/app/src/main/AndroidManifest.xml:9:13-43
+	android:hardwareAccelerated
+		ADDED from /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/android/app/src/main/AndroidManifest.xml:13:13-47
+	android:windowSoftInputMode
+		ADDED from /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/android/app/src/main/AndroidManifest.xml:14:13-55
+	android:exported
+		ADDED from /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/android/app/src/main/AndroidManifest.xml:8:13-36
+	android:configChanges
+		ADDED from /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/android/app/src/main/AndroidManifest.xml:12:13-163
+	android:theme
+		ADDED from /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/android/app/src/main/AndroidManifest.xml:11:13-47
+	android:taskAffinity
+		ADDED from /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/android/app/src/main/AndroidManifest.xml:10:13-36
+	android:name
+		ADDED from /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/android/app/src/main/AndroidManifest.xml:7:13-41
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/android/app/src/main/AndroidManifest.xml:19:13-22:17
+	android:resource
+		ADDED from /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/android/app/src/main/AndroidManifest.xml:21:15-52
+	android:name
+		ADDED from /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/android/app/src/main/AndroidManifest.xml:20:15-70
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/android/app/src/main/AndroidManifest.xml:23:13-26:29
+action#android.intent.action.MAIN
+ADDED from /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/android/app/src/main/AndroidManifest.xml:24:17-68
+	android:name
+		ADDED from /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/android/app/src/main/AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/android/app/src/main/AndroidManifest.xml:25:17-76
+	android:name
+		ADDED from /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/android/app/src/main/AndroidManifest.xml:25:27-74
+meta-data#flutterEmbedding
+ADDED from /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/android/app/src/main/AndroidManifest.xml:30:9-32:33
+	android:value
+		ADDED from /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/android/app/src/main/AndroidManifest.xml:32:13-30
+	android:name
+		ADDED from /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/android/app/src/main/AndroidManifest.xml:31:13-44
+uses-sdk
+INJECTED from /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/android/app/src/main/AndroidManifest.xml
+MERGED from [:shared_preferences_android] /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/build/shared_preferences_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/build/shared_preferences_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-preferences-core-android:1.1.7] /home/kavia/.gradle/caches/8.12/transforms/fdedd105cc354754002f80774071aa37/transformed/jetified-datastore-preferences-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-preferences-core-android:1.1.7] /home/kavia/.gradle/caches/8.12/transforms/fdedd105cc354754002f80774071aa37/transformed/jetified-datastore-preferences-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.7] /home/kavia/.gradle/caches/8.12/transforms/da3dcbb8478ee6712a2757e40e2e5700/transformed/jetified-datastore-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.7] /home/kavia/.gradle/caches/8.12/transforms/da3dcbb8478ee6712a2757e40e2e5700/transformed/jetified-datastore-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.7] /home/kavia/.gradle/caches/8.12/transforms/be249dffb93803e0508e06226425ebe1/transformed/jetified-datastore-preferences-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.7] /home/kavia/.gradle/caches/8.12/transforms/be249dffb93803e0508e06226425ebe1/transformed/jetified-datastore-preferences-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.7] /home/kavia/.gradle/caches/8.12/transforms/5681559bb59996d3347f16b2dbe5544f/transformed/jetified-datastore-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.7] /home/kavia/.gradle/caches/8.12/transforms/5681559bb59996d3347f16b2dbe5544f/transformed/jetified-datastore-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.preference:preference:1.2.1] /home/kavia/.gradle/caches/8.12/transforms/5677a5052a31cb55366be3f2f377c4e7/transformed/preference-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.2.1] /home/kavia/.gradle/caches/8.12/transforms/5677a5052a31cb55366be3f2f377c4e7/transformed/preference-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [:sqflite_android] /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/build/sqflite_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite_android] /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/build/sqflite_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/kavia/.gradle/caches/8.12/transforms/79486d8f89d2497e27223e0becc73a90/transformed/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/kavia/.gradle/caches/8.12/transforms/79486d8f89d2497e27223e0becc73a90/transformed/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/kavia/.gradle/caches/8.12/transforms/136d10bcf828d5896e991894b390a21f/transformed/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/kavia/.gradle/caches/8.12/transforms/136d10bcf828d5896e991894b390a21f/transformed/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/kavia/.gradle/caches/8.12/transforms/b8caf5d92752d661b609292b95ab21bb/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/kavia/.gradle/caches/8.12/transforms/b8caf5d92752d661b609292b95ab21bb/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /home/kavia/.gradle/caches/8.12/transforms/f60ce6f92c80e469411796f86fda3c0b/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /home/kavia/.gradle/caches/8.12/transforms/f60ce6f92c80e469411796f86fda3c0b/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.2.0] /home/kavia/.gradle/caches/8.12/transforms/f899a95975c11b33858104ea331c03ab/transformed/jetified-window-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window:1.2.0] /home/kavia/.gradle/caches/8.12/transforms/f899a95975c11b33858104ea331c03ab/transformed/jetified-window-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window-java:1.2.0] /home/kavia/.gradle/caches/8.12/transforms/eb474d7ce0c64ddc45d9ab2afdea5d4c/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:19:5-44
+MERGED from [androidx.window:window-java:1.2.0] /home/kavia/.gradle/caches/8.12/transforms/eb474d7ce0c64ddc45d9ab2afdea5d4c/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:19:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/kavia/.gradle/caches/8.12/transforms/8a003b1391932622036cdf6b3b964986/transformed/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/kavia/.gradle/caches/8.12/transforms/8a003b1391932622036cdf6b3b964986/transformed/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/kavia/.gradle/caches/8.12/transforms/692e18a164e15001616c74527901e95f/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/kavia/.gradle/caches/8.12/transforms/692e18a164e15001616c74527901e95f/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.7.1] /home/kavia/.gradle/caches/8.12/transforms/97b4838ef47b4e1dd9cf7d8aae894add/transformed/jetified-fragment-ktx-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.7.1] /home/kavia/.gradle/caches/8.12/transforms/97b4838ef47b4e1dd9cf7d8aae894add/transformed/jetified-fragment-ktx-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.7.1] /home/kavia/.gradle/caches/8.12/transforms/4cbdfda2afb93ffef36feb6acba46dc0/transformed/fragment-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.7.1] /home/kavia/.gradle/caches/8.12/transforms/4cbdfda2afb93ffef36feb6acba46dc0/transformed/fragment-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/kavia/.gradle/caches/8.12/transforms/00080e89f738ef5f55dfb4003af1f09c/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/kavia/.gradle/caches/8.12/transforms/00080e89f738ef5f55dfb4003af1f09c/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/kavia/.gradle/caches/8.12/transforms/0796bd49e88d4292b30bd2a8f7dcc1c7/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/kavia/.gradle/caches/8.12/transforms/0796bd49e88d4292b30bd2a8f7dcc1c7/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /home/kavia/.gradle/caches/8.12/transforms/693f17886d6335d8ef69da19f90830a8/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/kavia/.gradle/caches/8.12/transforms/693f17886d6335d8ef69da19f90830a8/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] /home/kavia/.gradle/caches/8.12/transforms/06a473e865f8e7b485d2585352d2f488/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] /home/kavia/.gradle/caches/8.12/transforms/06a473e865f8e7b485d2585352d2f488/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.8.1] /home/kavia/.gradle/caches/8.12/transforms/0da8d42eae823190dbcf7485206fa2fc/transformed/jetified-activity-ktx-1.8.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.1] /home/kavia/.gradle/caches/8.12/transforms/0da8d42eae823190dbcf7485206fa2fc/transformed/jetified-activity-ktx-1.8.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.8.1] /home/kavia/.gradle/caches/8.12/transforms/7edd89ff2b821836a158ea972629b617/transformed/jetified-activity-1.8.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.1] /home/kavia/.gradle/caches/8.12/transforms/7edd89ff2b821836a158ea972629b617/transformed/jetified-activity-1.8.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/kavia/.gradle/caches/8.12/transforms/478df5fbb6c199b4bc9f2ea82c5788fe/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/kavia/.gradle/caches/8.12/transforms/478df5fbb6c199b4bc9f2ea82c5788fe/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/kavia/.gradle/caches/8.12/transforms/e2b4af1ca0cec77ecb4ed0aec953c00c/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/kavia/.gradle/caches/8.12/transforms/e2b4af1ca0cec77ecb4ed0aec953c00c/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /home/kavia/.gradle/caches/8.12/transforms/3c5174da2f0a9454bec69e0785a04cc9/transformed/jetified-lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /home/kavia/.gradle/caches/8.12/transforms/3c5174da2f0a9454bec69e0785a04cc9/transformed/jetified-lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /home/kavia/.gradle/caches/8.12/transforms/bef3e897a1ae1d184f198511bbab3b7b/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /home/kavia/.gradle/caches/8.12/transforms/bef3e897a1ae1d184f198511bbab3b7b/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /home/kavia/.gradle/caches/8.12/transforms/e3ed3bc56fb2ca9433a8f85305a6f2c0/transformed/jetified-lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /home/kavia/.gradle/caches/8.12/transforms/e3ed3bc56fb2ca9433a8f85305a6f2c0/transformed/jetified-lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /home/kavia/.gradle/caches/8.12/transforms/59b488d18bfa87592b5ad32823bcba25/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /home/kavia/.gradle/caches/8.12/transforms/59b488d18bfa87592b5ad32823bcba25/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /home/kavia/.gradle/caches/8.12/transforms/6e4bcd22ed525db1f8711a9012922e07/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /home/kavia/.gradle/caches/8.12/transforms/6e4bcd22ed525db1f8711a9012922e07/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /home/kavia/.gradle/caches/8.12/transforms/7d83aa10a1c135b4920e96b1d67964db/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /home/kavia/.gradle/caches/8.12/transforms/7d83aa10a1c135b4920e96b1d67964db/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/kavia/.gradle/caches/8.12/transforms/0b087dc6e963b39d6d955468510bf4dc/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/kavia/.gradle/caches/8.12/transforms/0b087dc6e963b39d6d955468510bf4dc/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/kavia/.gradle/caches/8.12/transforms/146115acad06510fedc70c2ad7053c05/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/kavia/.gradle/caches/8.12/transforms/146115acad06510fedc70c2ad7053c05/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/kavia/.gradle/caches/8.12/transforms/3de42863783e9fa71310142d514f4b4b/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/kavia/.gradle/caches/8.12/transforms/3de42863783e9fa71310142d514f4b4b/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /home/kavia/.gradle/caches/8.12/transforms/73abdb972f6501e9e8fa1874e141f51c/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /home/kavia/.gradle/caches/8.12/transforms/73abdb972f6501e9e8fa1874e141f51c/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /home/kavia/.gradle/caches/8.12/transforms/7c55c3caa8fb4af6af2e7c6ae8f02b7d/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /home/kavia/.gradle/caches/8.12/transforms/7c55c3caa8fb4af6af2e7c6ae8f02b7d/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /home/kavia/.gradle/caches/8.12/transforms/9fd91c15a05417f0bbe416775b0ba94e/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /home/kavia/.gradle/caches/8.12/transforms/9fd91c15a05417f0bbe416775b0ba94e/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/kavia/.gradle/caches/8.12/transforms/9d3734c5e5f203e3b074616b184ca8fd/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/kavia/.gradle/caches/8.12/transforms/9d3734c5e5f203e3b074616b184ca8fd/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/kavia/.gradle/caches/8.12/transforms/ea272d0bc01621a4f70fb373888a98d4/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/kavia/.gradle/caches/8.12/transforms/ea272d0bc01621a4f70fb373888a98d4/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/kavia/.gradle/caches/8.12/transforms/77ac4369c6a4a7efe1e968b71ee20fd4/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/kavia/.gradle/caches/8.12/transforms/77ac4369c6a4a7efe1e968b71ee20fd4/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/kavia/.gradle/caches/8.12/transforms/ee7dbe78259710db70499170c3444bb4/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/kavia/.gradle/caches/8.12/transforms/ee7dbe78259710db70499170c3444bb4/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /home/kavia/.gradle/caches/8.12/transforms/ecc85db545387583b44d739710f54e69/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /home/kavia/.gradle/caches/8.12/transforms/ecc85db545387583b44d739710f54e69/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/kavia/.gradle/caches/8.12/transforms/fcf65e906405abd1021349d36e6d1b37/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/kavia/.gradle/caches/8.12/transforms/fcf65e906405abd1021349d36e6d1b37/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/kavia/.gradle/caches/8.12/transforms/a1e07d7eba4148825b06774d0db4bb31/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/kavia/.gradle/caches/8.12/transforms/a1e07d7eba4148825b06774d0db4bb31/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] /home/kavia/.gradle/caches/8.12/transforms/7eea7c7f87c2ddc8c9f4b537396d6ab8/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] /home/kavia/.gradle/caches/8.12/transforms/7eea7c7f87c2ddc8c9f4b537396d6ab8/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/kavia/.gradle/caches/8.12/transforms/ac4b390839bcdb06dc8c34815db85f0c/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/kavia/.gradle/caches/8.12/transforms/ac4b390839bcdb06dc8c34815db85f0c/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/kavia/.gradle/caches/8.12/transforms/2fb8bcbee05ee485046453e879ac761a/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/kavia/.gradle/caches/8.12/transforms/2fb8bcbee05ee485046453e879ac761a/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/kavia/.gradle/caches/8.12/transforms/587de8059ab46e1ea8ed4ee5add1c616/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/kavia/.gradle/caches/8.12/transforms/587de8059ab46e1ea8ed4ee5add1c616/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/kavia/.gradle/caches/8.12/transforms/5b2cfedfa94e7b48cdcb9842603abf28/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/kavia/.gradle/caches/8.12/transforms/5b2cfedfa94e7b48cdcb9842603abf28/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window.extensions.core:core:1.0.0] /home/kavia/.gradle/caches/8.12/transforms/b832e67ee1b3ae2c9d8b7f34399e4c0f/transformed/jetified-core-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.window.extensions.core:core:1.0.0] /home/kavia/.gradle/caches/8.12/transforms/b832e67ee1b3ae2c9d8b7f34399e4c0f/transformed/jetified-core-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/kavia/.gradle/caches/8.12/transforms/2afab207716716629e38ce655845ca84/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/kavia/.gradle/caches/8.12/transforms/2afab207716716629e38ce655845ca84/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/kavia/.gradle/caches/8.12/transforms/0e277a8e5f6dea3f730d6708665e06ad/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/kavia/.gradle/caches/8.12/transforms/0e277a8e5f6dea3f730d6708665e06ad/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/kavia/.gradle/caches/8.12/transforms/cab713ce268234a260ff018cb4214edc/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/kavia/.gradle/caches/8.12/transforms/cab713ce268234a260ff018cb4214edc/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/kavia/.gradle/caches/8.12/transforms/14d521577cde7fbee6d2e389b9d6632b/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/kavia/.gradle/caches/8.12/transforms/14d521577cde7fbee6d2e389b9d6632b/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] /home/kavia/.gradle/caches/8.12/transforms/d3ecb9d20a3f7383ab98632cd423a8df/transformed/jetified-relinker-1.4.5/AndroidManifest.xml:5:5-43
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] /home/kavia/.gradle/caches/8.12/transforms/d3ecb9d20a3f7383ab98632cd423a8df/transformed/jetified-relinker-1.4.5/AndroidManifest.xml:5:5-43
+	android:targetSdkVersion
+		INJECTED from /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/kavia/workspace/code-generation/budget-tracker-pro-4456-4466/expense_frontend/android/app/src/main/AndroidManifest.xml
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.2.0] /home/kavia/.gradle/caches/8.12/transforms/f899a95975c11b33858104ea331c03ab/transformed/jetified-window-1.2.0/AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.window:window:1.2.0] /home/kavia/.gradle/caches/8.12/transforms/f899a95975c11b33858104ea331c03ab/transformed/jetified-window-1.2.0/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.window:window:1.2.0] /home/kavia/.gradle/caches/8.12/transforms/f899a95975c11b33858104ea331c03ab/transformed/jetified-window-1.2.0/AndroidManifest.xml:24:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.2.0] /home/kavia/.gradle/caches/8.12/transforms/f899a95975c11b33858104ea331c03ab/transformed/jetified-window-1.2.0/AndroidManifest.xml:26:9-28:40
+	android:required
+		ADDED from [androidx.window:window:1.2.0] /home/kavia/.gradle/caches/8.12/transforms/f899a95975c11b33858104ea331c03ab/transformed/jetified-window-1.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.window:window:1.2.0] /home/kavia/.gradle/caches/8.12/transforms/f899a95975c11b33858104ea331c03ab/transformed/jetified-window-1.2.0/AndroidManifest.xml:27:13-51
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/kavia/.gradle/caches/8.12/transforms/0b087dc6e963b39d6d955468510bf4dc/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/kavia/.gradle/caches/8.12/transforms/fcf65e906405abd1021349d36e6d1b37/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/kavia/.gradle/caches/8.12/transforms/fcf65e906405abd1021349d36e6d1b37/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/kavia/.gradle/caches/8.12/transforms/a1e07d7eba4148825b06774d0db4bb31/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/kavia/.gradle/caches/8.12/transforms/a1e07d7eba4148825b06774d0db4bb31/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/kavia/.gradle/caches/8.12/transforms/0b087dc6e963b39d6d955468510bf4dc/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/kavia/.gradle/caches/8.12/transforms/0b087dc6e963b39d6d955468510bf4dc/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/kavia/.gradle/caches/8.12/transforms/0b087dc6e963b39d6d955468510bf4dc/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/kavia/.gradle/caches/8.12/transforms/0b087dc6e963b39d6d955468510bf4dc/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/kavia/.gradle/caches/8.12/transforms/0b087dc6e963b39d6d955468510bf4dc/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/kavia/.gradle/caches/8.12/transforms/0b087dc6e963b39d6d955468510bf4dc/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/kavia/.gradle/caches/8.12/transforms/0b087dc6e963b39d6d955468510bf4dc/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/kavia/.gradle/caches/8.12/transforms/ecc85db545387583b44d739710f54e69/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /home/kavia/.gradle/caches/8.12/transforms/ecc85db545387583b44d739710f54e69/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/kavia/.gradle/caches/8.12/transforms/ecc85db545387583b44d739710f54e69/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+permission#com.example.expense_frontend.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/kavia/.gradle/caches/8.12/transforms/ecc85db545387583b44d739710f54e69/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /home/kavia/.gradle/caches/8.12/transforms/ecc85db545387583b44d739710f54e69/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/kavia/.gradle/caches/8.12/transforms/ecc85db545387583b44d739710f54e69/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/kavia/.gradle/caches/8.12/transforms/ecc85db545387583b44d739710f54e69/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/kavia/.gradle/caches/8.12/transforms/ecc85db545387583b44d739710f54e69/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+uses-permission#com.example.expense_frontend.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/kavia/.gradle/caches/8.12/transforms/ecc85db545387583b44d739710f54e69/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/kavia/.gradle/caches/8.12/transforms/ecc85db545387583b44d739710f54e69/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/kavia/.gradle/caches/8.12/transforms/fcf65e906405abd1021349d36e6d1b37/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/kavia/.gradle/caches/8.12/transforms/fcf65e906405abd1021349d36e6d1b37/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/kavia/.gradle/caches/8.12/transforms/fcf65e906405abd1021349d36e6d1b37/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/kavia/.gradle/caches/8.12/transforms/fcf65e906405abd1021349d36e6d1b37/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/kavia/.gradle/caches/8.12/transforms/fcf65e906405abd1021349d36e6d1b37/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/kavia/.gradle/caches/8.12/transforms/fcf65e906405abd1021349d36e6d1b37/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/kavia/.gradle/caches/8.12/transforms/fcf65e906405abd1021349d36e6d1b37/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/kavia/.gradle/caches/8.12/transforms/fcf65e906405abd1021349d36e6d1b37/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/kavia/.gradle/caches/8.12/transforms/fcf65e906405abd1021349d36e6d1b37/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/kavia/.gradle/caches/8.12/transforms/fcf65e906405abd1021349d36e6d1b37/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/kavia/.gradle/caches/8.12/transforms/fcf65e906405abd1021349d36e6d1b37/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/kavia/.gradle/caches/8.12/transforms/fcf65e906405abd1021349d36e6d1b37/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/kavia/.gradle/caches/8.12/transforms/fcf65e906405abd1021349d36e6d1b37/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/kavia/.gradle/caches/8.12/transforms/fcf65e906405abd1021349d36e6d1b37/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/kavia/.gradle/caches/8.12/transforms/fcf65e906405abd1021349d36e6d1b37/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/kavia/.gradle/caches/8.12/transforms/fcf65e906405abd1021349d36e6d1b37/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/kavia/.gradle/caches/8.12/transforms/fcf65e906405abd1021349d36e6d1b37/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/kavia/.gradle/caches/8.12/transforms/fcf65e906405abd1021349d36e6d1b37/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/kavia/.gradle/caches/8.12/transforms/fcf65e906405abd1021349d36e6d1b37/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/kavia/.gradle/caches/8.12/transforms/fcf65e906405abd1021349d36e6d1b37/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/kavia/.gradle/caches/8.12/transforms/fcf65e906405abd1021349d36e6d1b37/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
