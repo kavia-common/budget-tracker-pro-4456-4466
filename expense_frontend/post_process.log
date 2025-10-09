@@ -25,7 +25,7 @@ Downloading packages...
 + plugin_platform_interface 2.1.8
 + provider 6.1.5+1
 + shared_preferences 2.5.3
-+ shared_preferences_android 2.4.13 (2.4.14 available)
++ shared_preferences_android 2.4.13 (2.4.15 available)
 + shared_preferences_foundation 2.5.4
 + shared_preferences_linux 2.4.1
 + shared_preferences_platform_interface 2.4.1
